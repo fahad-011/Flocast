@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { AiOutlineFileUnknown } from "react-icons/ai";
-import { FaHandHoldingWater } from "react-icons/fa";
+import { FaHandHoldingWater,FaLifeRing } from "react-icons/fa";
 import { GiFlood, GiWaterRecycling } from "react-icons/gi";
 
 const navigation = [
@@ -27,10 +27,10 @@ const navigation = [
     icon: FaHandHoldingWater,
   },
   {
-    name: "Central Water Commision",
-    href: "http://www.cwc.gov.in/",
+    name: "Emergency Aid",
+    href: "/emergency",
     current: false,
-    icon: GiWaterRecycling,
+    icon: FaLifeRing,
   },
 ];
 

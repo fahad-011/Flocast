@@ -1,8 +1,9 @@
 import { Carousel } from "flowbite-react";
 import React from "react";
 import { Link } from "react-router-dom";
-import Image1 from "../images/sliderbannerM30.jpg";
-import Image2 from "../images/sliderbannerM32.jpg";
+import Image1 from "../images/banner02.jpg";
+import Image2 from "../images/banner01.jpg";
+import Image3 from "../images/sliderbannerM31.jpg";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
               <br className="hidden lg:inline-block" />
             </h1>
             <p className="mb-8 leading-relaxed">
-              FLOCAST is a NextGen web application developed by Team Nexalus
+              FLOCAST is a NextGen web application developed by Team ByteBusters
               that aims to serve as a solution for Two-way mobile communication
               (G2C and C2G) for the dissemination of flood forecasts to
               end-users with the collection of real-time data of inundation
@@ -53,7 +54,7 @@ const Home = () => {
         <Carousel>
           <img src={Image1} style={{ height: "100%" }} alt="..." />
           <img src={Image2} style={{ height: "100%" }} alt="..." />
-          <img src={Image1} style={{ height: "100%" }} alt="..." />
+          <img src={Image3} style={{ height: "100%" }} alt="..." />
         </Carousel>
       </div>
     </>
