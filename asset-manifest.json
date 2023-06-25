@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Flocast/static/css/main.03190d0c.css",
-    "main.js": "/Flocast/static/js/main.bcb41cde.js",
+    "main.js": "/Flocast/static/js/main.6beff7e9.js",
     "static/media/Dist.jpg": "/Flocast/static/media/Dist.571f0080d3de026585d4.jpg",
     "static/media/Govt.jpg": "/Flocast/static/media/Govt.b0eac295ca09bef27e2c.jpg",
     "static/media/sliderbannerM31.jpg": "/Flocast/static/media/sliderbannerM31.1b989089f2e408522b49.jpg",
@@ -10,10 +10,10 @@
     "static/media/location-indicator-red.png": "/Flocast/static/media/location-indicator-red.fb7118be89035d1ed2d5.png",
     "index.html": "/Flocast/index.html",
     "main.03190d0c.css.map": "/Flocast/static/css/main.03190d0c.css.map",
-    "main.bcb41cde.js.map": "/Flocast/static/js/main.bcb41cde.js.map"
+    "main.6beff7e9.js.map": "/Flocast/static/js/main.6beff7e9.js.map"
   },
   "entrypoints": [
     "static/css/main.03190d0c.css",
-    "static/js/main.bcb41cde.js"
+    "static/js/main.6beff7e9.js"
   ]
 }
