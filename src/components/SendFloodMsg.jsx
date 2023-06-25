@@ -21,7 +21,7 @@ const SendFloodMsg = () => {
     };
     try {
       axios
-        .post("http://localhost:8000/sms/send", data, { headers })
+        .post("https://lilac-mackerel-belt.cyclic.app/sms/send", data, { headers })
         .then((response) => {
           Swal.fire({
             icon: "success",

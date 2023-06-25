@@ -87,7 +87,7 @@ const GeotaggedImageUpload = () => {
       try {
         axios
           // .post("http://localhost:8000/image/upload", data, { headers })
-          .post("http://localhost:8000/image/upload", data, { headers })
+          .post("https://lilac-mackerel-belt.cyclic.app/image/upload", data, { headers })
           .then((response) => {
             console.log(response);
             Swal.fire({

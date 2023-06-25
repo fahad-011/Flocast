@@ -53,7 +53,7 @@ const Inundations = () => {
   useEffect(() => {
     getUserCoordinates();
     axios
-      .get("http://localhost:8000/image/getForecasts")
+      .get("https://lilac-mackerel-belt.cyclic.app/image/getForecasts")
       .then(function (response) {
         console.log(response.data);
         setForeCastData(response.data);
